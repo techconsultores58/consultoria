@@ -1,0 +1,73 @@
+/* Resetear estilos por defecto */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #974EC3;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+header img {
+  width: 120px;
+  height: 90px;
+  border-radius: 15px;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25PX;
+
+
+}
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #974EC3;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Estilos específicos */
+#inicio {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#servicios ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#contacto a {
+  color: #007bff;
+}
+
+#software a {
+    color: #007bff;
+    margin-left: 20px;
+  }
