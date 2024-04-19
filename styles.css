@@ -71,3 +71,51 @@ footer {
     color: #007bff;
     margin-left: 20px;
   }
+
+  .redes-sociales  {
+  list-style: none; /* Quita los marcadores de lista */
+    padding: 0; /* Quita el espacio interior */
+    display: flex; /* Cambia la visualización a flexbox */
+    justify-content: center;
+  }
+
+  .redes-sociales li {
+    margin-right: 10px; /* Espacio entre elementos de lista */
+}
+
+/* Estilos para los enlaces */
+.redes-sociales li a {
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    color: #333; /* Color del texto de los enlaces */
+    text-align: center;
+}
+
+@media (max-width: 200px) {
+  #servicios ul {
+    flex-direction: column;
+  }
+  
+}
+
+.banner-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner {
+  width: 200%; /* Doble del ancho para el desplazamiento */
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  animation: desplazamiento 10s linear infinite;
+}
+
+@keyframes desplazamiento {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
